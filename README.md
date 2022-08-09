@@ -63,6 +63,7 @@ If you finished, it would be like this.
         pip install faiss-gpu
     
  If you have trouble tha cannot install faiss, you can try the command bellow and change the CUDA version
+ 
         conda config --append channels conda-forge
         conda install faiss-gpu
         

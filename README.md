@@ -66,7 +66,10 @@ If you finished, it would be like this.
         conda config --append channels conda-forge
         conda install faiss-gpu
         
- 
+🔱Test
+===
+
+        python tools/mc_demo_yolov7.py --weights pretrained/yolov7-d6.pt --source <path_to_video>
 
 
 

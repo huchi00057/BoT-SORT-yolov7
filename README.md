@@ -8,13 +8,13 @@
 ====
 ## 1.Create a new environment
 
-  conda create -n botsort_env python=3.7
-  conda activate botsort_env
-  cd BoT-SORT
+    conda create -n botsort_env python=3.7
+    conda activate botsort_env
+    cd BoT-SORT
 
 ## 2.Install Pytorch corresponded to your CUDA version
 Enter the cmd to check version.
-  nvidia-smi
+    nvidia-smi
   
   ![image](https://user-images.githubusercontent.com/46515944/183584522-c359b89b-bf65-48dd-8095-de87bd444333.png)
 

@@ -10,6 +10,7 @@
 
   conda create -n botsort_env python=3.7
   conda activate botsort_env
+  cd BoT-SORT
 
 ## 2.Install Pytorch corresponded to your CUDA version
 Enter the cmd to check version.
@@ -35,9 +36,12 @@ If it work successfully, it'll show **True**.
 
 ![image](https://user-images.githubusercontent.com/46515944/183584183-508ccb89-4750-49c1-93b1-6ce329ebcc57.png)
 
+## 3.Install the requirements.txt
 
-🔱Amend the code
-====
+    pip install -r requirements.txt
+
+## 4.Amend the code
+
 Near 50 lines in set.py
 
 Just add encoding='utf-8' behind "r".
@@ -51,5 +55,11 @@ If you finished, it would be like this.
 
 ![image](https://user-images.githubusercontent.com/46515944/183581630-2253bbe2-ded3-441b-a328-4e899359cb1d.png)
 
-🔱Install requirements
-====
+## 5.Install the packages
+    pip install cython
+    pip install -e git+https://github.com/samson-wang/cython_bbox.git#egg=cython-bbox
+    pip install pycocotools
+
+    
+    
+    

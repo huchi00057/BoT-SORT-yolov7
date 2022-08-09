@@ -49,16 +49,26 @@ Just add encoding='utf-8' behind "r".
 ![image](https://user-images.githubusercontent.com/46515944/183583132-d70eae3c-4592-4ae0-984d-27f962b24b15.png)
 
 then enter the following in prompt
-  python setup.py develop
+    python setup.py develop
 
 If you finished, it would be like this.
 
 ![image](https://user-images.githubusercontent.com/46515944/183581630-2253bbe2-ded3-441b-a328-4e899359cb1d.png)
 
 ## 5.Install the packages
-    pip install cython
-    pip install -e git+https://github.com/samson-wang/cython_bbox.git#egg=cython-bbox
-    pip install pycocotools
+        pip install cython
+        pip install -e git+https://github.com/samson-wang/cython_bbox.git#egg=cython-bbox
+        pip install pycocotools
+        pip install -e git+https://github.com/cocodataset/cocoapi.git#egg=PythonAPI
+        pip install faiss-gpu
+    
+ If you have trouble tha cannot install faiss, you can try the command bellow and change the CUDA version
+        conda config --append channels conda-forge
+        conda install faiss-gpu
+        
+ 
+
+
 
     
     

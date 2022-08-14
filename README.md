@@ -67,6 +67,10 @@ If you finished, it would be like this.
         conda config --append channels conda-forge
         conda install faiss-gpu
  
+ Or
+ 
+        conda install -c conda-forge faiss-gpu
+ 
 🔱Put your trained yolov7 model into the folder
 ===
 Here are three document you must put in.

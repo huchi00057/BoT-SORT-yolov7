@@ -66,9 +66,25 @@ If you finished, it would be like this.
  
         conda config --append channels conda-forge
         conda install faiss-gpu
-        
-🔱Test
+ 
+🔱Put your trained yolov7 model into the folder
 ===
+Here are three document you must put in.
+
+## 1. Your weight file
+> Put it into 
+> BoT-SORT/best.pt
+
+## 2. Your model.yaml in cfg folder
+> Put it into 
+> BoT-SORT/yolov7/data/my.yaml
+
+## 3. Your model.yaml in data folder
+> Put it into 
+> BoT-SORT/yolov7/cfg/my.yaml 
+
+🔱Test/Demo
+====
 
         python tools/mc_demo_yolov7.py --weights pretrained/yolov7-d6.pt --source <path_to_video>
 

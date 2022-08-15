@@ -14,6 +14,7 @@
 
 ## 2.Install Pytorch corresponded to your CUDA version
 Enter the cmd to check version.
+
     nvidia-smi
   
   ![image](https://user-images.githubusercontent.com/46515944/183584522-c359b89b-bf65-48dd-8095-de87bd444333.png)
